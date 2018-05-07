@@ -1,0 +1,17 @@
+.users-list {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  overflow: auto;
+}
+
+.users-list-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mat-header-cell.mat-sort-header-sorted {
+  color: black;
+}
